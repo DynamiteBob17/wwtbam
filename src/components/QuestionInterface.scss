@@ -1,0 +1,33 @@
+.question_interface {
+  button {
+    text-align: left;
+  }
+
+  span {
+    color: orangered;
+  }
+
+  .question-paragraph {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem; /* Add some padding for readability */
+    max-width: 600px; /* Set a maximum width */
+    margin: 0 auto; /* Center the paragraph horizontally */
+    border: 5px solid #00f; /* Bright blue border */
+    border-radius: 50%; /* Rounded corners for a smoother look */
+    /* Remove the top and bottom borders to create the cone shape */
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .horizontal-line {
+    width: 100%; /* Span the entire width of the page */
+    height: 2px; /* Set the line thickness */
+    background-color: #00f; /* Same color as the border */
+    position: absolute; /* Position the line absolutely */
+    top: 5.3%; /* Adjust the line as necessary */
+    left: 0; /* Position the line at the left edge */
+    z-index: -9999; /* Crucial for rendering the paragraph on top of the line */
+  }
+}
